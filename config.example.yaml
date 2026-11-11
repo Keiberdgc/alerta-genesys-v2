@@ -1,0 +1,11 @@
+# Copiar como config.yaml. Mantener los valores reales de tu organización.
+genesys:
+  region: mypurecloud.com  # EJEMPLO: reemplazar con la región real ya probada
+telegram:
+  chat_id: "-1001234567890"  # EJEMPLO: reemplazar con el chat_id real
+intervalo_segundos: 30
+archivo_estado: estado_alertas_v2.json
+# Ambas reglas se aplican a todos los agentes de esta lista.
+# OFF_QUEUE > 75 min y presencia personalizada Baño > 20 min.
+agentes:
+  - email: usuario.prueba@empresa.com  
